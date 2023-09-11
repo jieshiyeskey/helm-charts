@@ -10,7 +10,7 @@ replicaCount: 1
 revisionHistoryLimit: 10
 
 image:
-  repository: quay.io/prometheus/alertmanager
+  repository: hub.pailoo.io/prometheus/alertmanager
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
@@ -242,7 +242,7 @@ configmapReload:
   ## configmap-reload container image
   ##
   image:
-    repository: quay.io/prometheus-operator/prometheus-config-reloader
+    repository: hub.pailoo.io/prometheus-operator/prometheus-config-reloader
     tag: v0.66.0
     pullPolicy: IfNotPresent
 
