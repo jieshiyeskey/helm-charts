@@ -12,7 +12,7 @@ fullnameOverride: ""
 namespaceOverride: ""
 
 image:
-  repository: quay.io/prometheus/pushgateway
+  repository: hub.pailoo.io/prometheus/pushgateway
   # if not set appVersion field from Chart.yaml is used
   tag: ""
   pullPolicy: IfNotPresent
